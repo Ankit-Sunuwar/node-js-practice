@@ -2,6 +2,9 @@
 
 // console.log(text.lowerCase("ANKIT"));
 
-const number = require("./number");
+// const number = require("./number");
 
-console.log(number);
+// console.log(number);
+
+const temperature = require("./temperature");
+console.log(temperature);

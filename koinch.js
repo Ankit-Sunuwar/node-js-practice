@@ -7,4 +7,4 @@
 // console.log(number);
 
 const temperature = require("./temperature");
-console.log(temperature);
+console.log(temperature.convertToCelcius(40));

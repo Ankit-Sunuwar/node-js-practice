@@ -5,7 +5,7 @@ const convertToCelcius = (kelvin) => {
   return celcius;
 };
 
-const result = convertToCelcius(40);
+const result = convertToCelcius();
 console.log(result);
 
 const convertToKelvin = (celcius) => {
@@ -13,7 +13,7 @@ const convertToKelvin = (celcius) => {
   return kelvin;
 };
 
-const result2 = convertToKelvin();
+const result2 = convertToKelvin(50);
 console.log(result2);
 
 module.exports = { convertToCelcius, convertToKelvin };
